@@ -5,6 +5,6 @@ public class JavaTest {
         int hex = 0xFF;
         int oct = 011;
         int bin = 0b1100;
-        System.out.println(hex + "\n" + oct + "\n" + bin);
+        System.out.println(hex + "\n\t" + oct + "\n\t\t" + bin);
     }
 }
