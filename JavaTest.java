@@ -7,7 +7,8 @@ public class JavaTest {
         int bin = 0b1100;
         float f = 1.2F;
 
-        System.out.println("Представление чисел в различных\nсистемах счисления");
-        System.out.println(hex + "\n\t" + oct + "\n\t\t" + bin + "\n\t" + f);
+        System.out.println("Представление чисел в различных системах счисления\n");
+        System.out.println("В шестнадцатеричной\n\tв восьмеричной\n\t\tв двоичной");
+        System.out.println("0xFF\n" + hex + "\n\t011\n\t" + oct + "\n\t\t0b1100\n\t\t" + bin);
     }
 }
