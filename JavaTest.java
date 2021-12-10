@@ -11,9 +11,14 @@ public class JavaTest {
         System.out.println("В шестнадцатеричной\n\tв восьмеричной\n\t\tв двоичной");
         System.out.println("0xFF\n" + hex + "\n\t011\n\t" + oct + "\n\t\t0b1100\n\t\t" + bin);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         if(hex > oct) System.out.println(hex + " is bigger then " + oct);
 =======
 >>>>>>> da66f66 (4 commit on second-feature - delete string Hello from JavaTest.java file)
+=======
+
+        if(hex > oct) System.out.println(hex + " is bigger then " + oct);
+>>>>>>> 28b4d68 (add simple if statement)
     }
 }
