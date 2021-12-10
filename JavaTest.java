@@ -14,11 +14,25 @@ public class JavaTest {
 <<<<<<< HEAD
 
         if(hex > oct) System.out.println(hex + " is bigger then " + oct);
+<<<<<<< HEAD
 =======
 >>>>>>> da66f66 (4 commit on second-feature - delete string Hello from JavaTest.java file)
 =======
 
         if(hex > oct) System.out.println(hex + " is bigger then " + oct);
 >>>>>>> 28b4d68 (add simple if statement)
+=======
+
+        char ch;
+
+        for(ch = 'A'; ch <= 'Z'; ch++) {
+            if(ch == 'Z') {
+                System.out.print(ch);
+            } else {
+                System.out.print(ch + ", ");
+            }
+        }
+        System.out.println();
+>>>>>>> 16a7ca2 (add alphabet in JavaTest files)
     }
 }
