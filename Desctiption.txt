@@ -1,2 +1,4 @@
 Desctiption
 of project
+
+This file created for making some experiments with java language
