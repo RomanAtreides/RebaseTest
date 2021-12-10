@@ -7,6 +7,7 @@ public class JavaTest {
         int bin = 0b1100;
         float f = 1.2F;
 
+        System.out.println("hex" + "\n\t" + "oct" + "\n\t\t" + "bin" + "\n\t" + "f");
         System.out.println(hex + "\n\t" + oct + "\n\t\t" + bin + "\n\t" + f);
     }
 }
