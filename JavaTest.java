@@ -15,13 +15,9 @@ public class JavaTest {
 
         char ch;
 
-        for(ch = 'A'; ch <= 'Z'; ch++) {
-            if(ch == 'Z') {
-                System.out.print(ch);
-            } else {
-                System.out.print(ch + ", ");
+        for(ch = 'A'; ch <= 'Y'; ch++) {
+            System.out.print(ch + ", ");
             }
-        }
-        System.out.println();
+        System.out.print(ch + "\n");
     }
 }
